@@ -11,3 +11,14 @@ FIX协议简介
 - [INVESTPEDIA](https://www.investopedia.com/)
 
 查找金融术语的通俗解释
+
+## TIPS
+
+在Linux中查看FIX的log
+分隔符的SOH
+
+view/less -r
+
+## 排版
+
+全文使用了英文的标点符号.
