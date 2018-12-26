@@ -1,7 +1,7 @@
 
 
 
-
+folder = "FIX_Protocol_Introduction_workspace"
 
 punctuation_dict = {
     "。" : ".",  # 句号
