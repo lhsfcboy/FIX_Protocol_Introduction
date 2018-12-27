@@ -27,3 +27,9 @@ view/less -r
 ## FIX的命名
 
 FIX这个名字包含的意思太多, 
+
+## TODO
+
+### Quick FIX 的学习
+
+### Python FIX 的开发
