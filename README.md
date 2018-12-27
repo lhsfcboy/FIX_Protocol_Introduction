@@ -1,6 +1,7 @@
 # FIX_Protocol_Introduction
 FIX协议简介
 
+本站并不提供原书的电子版文件
 
 ## 相关问题
 
