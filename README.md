@@ -17,8 +17,20 @@ FIX协议简介
 
 在Linux中查看FIX的log
 分隔符的SOH
+og Display
 
-view/less -r
+Fix Log include SOH(u0001), which is ugly in less comman.
+
+
+```console
+less -r #can get rid of them.
+view # (vi in read only mode) still display SOH, but in a dark blue
+```
+
+
+How to input these char in vim?
+
+On insert mode, Ctrl + v, and then u0001
 
 ## 排版
 
