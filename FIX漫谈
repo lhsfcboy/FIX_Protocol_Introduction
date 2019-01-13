@@ -1,0 +1,10 @@
+## FIX漫谈
+
+- 在某些特定的业务中， 可能会要求某个特定MsgType中必须包含的Tag
+  - 基于Quoto的外汇订单可能会要求必须包含QuoteID(117)
+  - D订单可能要求必须包含Account(1) tag
+
+- 对于Quote必须回复Ack(Hardcode了QuoteResponseLevel <301>)
+  - Quote Acknowledgement (b) message. It is intended to provide application level acknowledgement of quotes. 
+
+- pass
