@@ -13,8 +13,18 @@
 
 ## FIX数据包的大小
 
+### Base Network
+
 - Size of Ethernet frame - 24 Bytes
 - Size of IPv4 Header (without any options) - 20 bytes
 - Size of TCP Header (without any options) - 20 Bytes
 
 Total size of an Ethernet Frame carrying an IP Packet with an empty TCP Segment - 24 + 20 + 20 = 64 bytes
+
+### Body Length
+
+- Logon (10 tags) - 80 bytes
+- Single Order (16 tags) - 150 bytes
+- Execution Report (28 tags) - 250 bytes
+- Quote (Single Side, 22 tags) - 250 bytes
+- Quote (Combined, 30 tags) - 350 bytes
